@@ -1,5 +1,10 @@
 # express-permission
 
+[![NPM Version](https://img.shields.io/npm/v/express-permission.svg)](https://www.npmjs.com/package/express-permission)
+[![Build Status](https://img.shields.io/travis/com/alxhotel/express-permission/master.svg)](https://travis-ci.com/alxhotel/express-permission)
+[![Dependency Status](https://david-dm.org/alxhotel/express-permission/status.svg)](https://david-dm.org/alxhotel/express-permission)
+[![Standard - Javascript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 Permission based on roles for Express.
 
 ## Install
