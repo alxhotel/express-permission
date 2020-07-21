@@ -10,10 +10,18 @@ npm install express-permission
 
 ## Usage
 
+1. Set permission in the express app:
+
+```js
+app.set('permission', { role: 'userProperty' })
+
+app.set('permission', { role: ['my', 'nested', 'property'] })
+```
+
+2. Set the permission in the router:
+
 ```js
 const expressPermission = require('express-permission')
-
-app.set('permission', { role: 'myRole' })
 
 router.get('/', expressPermission(), function(req, res) {
   // Do some logic here
